@@ -10,7 +10,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: rgb(247, 189, 167)
+    background-color: rgb(224, 210, 195)
 
 }
 
@@ -25,25 +25,47 @@ header {
 }
 
 .projects-section {
-    margin: 50px;
-  padding: 30px;
+    margin: 10px;
+  padding: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-around;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+.flex-item {
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: stretch;
+    padding: 20;
+    margin: 10px;
+    transition: all .5s;
+    font-size: 20px;
+  }
+
+.flex-item:first-child {
+    min-height: 300px;
+    flex-basis: 50%;
 }
 
 /*Placeholder images for projects generated from code from https://plchldr.co/ */
 
 .project-1 {
-    background-image: url("https://plchldr.co/i/800x700?text=Project 1")
+    background-image: url("https://plchldr.co/i/800x700?text=1")
 }
 
 .project-2 {
-    background-image: url("https://plchldr.co/i/800x700?text=Project 2")
+    background-image: url("https://plchldr.co/i/800x700?text=2")
 }
 
 .project-3 {
-    background-image: url("https://plchldr.co/i/800x700?text=Project 3")
+    background-image: url("https://plchldr.co/i/800x700?text=3")
 }
