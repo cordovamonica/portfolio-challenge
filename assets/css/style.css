@@ -1,0 +1,21 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(247, 189, 167)
+
+}
+
+.subtitle {
+    padding: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
