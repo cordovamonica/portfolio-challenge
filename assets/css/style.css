@@ -46,6 +46,7 @@ header {
   justify-content: space-evenly;
 }
 
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -56,13 +57,14 @@ header {
     min-height: 150px;
     max-height: 200px;
     display: flex;
-    align-items: stretch;
-    padding: 20;
+    align-items: end;
+    padding: 20px;
     margin: 10px;
     transition: all .5s;
     font-size: 20px;
   }
 
+  /*makes the first project pic larger than others*/
 .flex-item:first-child {
     min-height: 300px;
     flex-basis: 50%;
@@ -82,12 +84,14 @@ header {
     background-image: url("https://plchldr.co/i/800x700?text=3")
 }
 
+/*applies styling to contact section of page*/
 .contact-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+/*adjusts the screen size for different displays*/
 @media screen and (max-width: 768px) {
     body {
         flex-direction: column;
