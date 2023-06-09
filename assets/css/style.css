@@ -1,3 +1,4 @@
+/*gives the whole page a set font and background color*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(238, 249, 251);
@@ -14,6 +15,7 @@ header {
 
 }
 
+/*styles the subtitle and banner*/
 .subtitle {
     padding: 5px;
     display: flex;
@@ -32,10 +34,12 @@ header {
     margin: 50px;
 }
 
+/*styles the border around my profile photo*/
 .profile-picture{
     border-radius: 50px;
 }
 
+/*brings the projects to the center of page with space around*/
 .projects-section {
     margin: 10px;
   padding: 10px;
@@ -46,7 +50,7 @@ header {
   justify-content: space-evenly;
 }
 
-
+/*brings the projects to center, gives spacing*/
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -70,7 +74,7 @@ header {
     flex-basis: 50%;
 }
 
-/* Placeholder images for projects generated from code from https://plchldr.co/ */
+/*Creates a placeholder that generates a new color when page loads. Placeholder images for projects generated from code from https://plchldr.co/ */
 
 .project-1 {
     background-image: url("https://plchldr.co/i/800x700?text=1")
