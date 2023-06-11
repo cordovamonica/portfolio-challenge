@@ -17,4 +17,4 @@ The following screenshots show the finished page:
 ![Example of responsive design for smaller screen](./assets/images/example%20of%20responsive%20design%20-%20smaller%20screen.png)
 
 The following link shows the finished page on GitPages:
-[GitPages Portfolio Challenge]()
+[GitPages Portfolio Challenge](https://cordovamonica.github.io/portfolio-challenge/)
